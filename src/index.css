@@ -9,4 +9,5 @@ body {
 }
 * {
   font-family: Inter, Arial, Helvetica, sans-serif;
+  @apply text-white;
 }
