@@ -9,7 +9,7 @@ const TopHeader = () => {
         it out!
       </p>
       <div className="ml-4 flex flex-row items-center">
-        <MainButton onClick={() => {}} text="Save my spot" classNames="mr-1" />
+        <MainButton text="Save my spot" classNames="mr-1" />
       </div>
     </div>
   );

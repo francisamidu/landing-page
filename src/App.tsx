@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { TopHeader } from './components';
+import { Hero, TopHeader } from './components';
 
 const App = () => {
   return (
     <>
-      <main className="min-h-[90vh] bg-[#02000e]">
+      <main className="min-h-[95vh] bg-[#02000e]">
         <TopHeader />
+        <Hero />
       </main>
     </>
   );
