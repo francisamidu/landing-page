@@ -3,7 +3,7 @@ import { MainButton } from '.';
 
 const Hero = () => {
   return (
-    <div className="mt-20 flex flex-col items-center justify-center text-center">
+    <div className="my-28 flex flex-col items-center justify-center text-center">
       <h1 className="w-3/5 text-6xl font-bold capitalize leading-[4rem]">
         The Future of Creative Art reimagined AI Image generation
       </h1>
