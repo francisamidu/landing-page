@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stat = () => {
   return (
-    <div className="mt-7 flex flex-row items-center justify-center text-xl">
+    <section className="mt-7 flex flex-row items-center justify-center text-xl">
       <p className="mr-2">
         Won
         <a href="#" className="mx-1 text-purplish-500">
@@ -13,7 +13,7 @@ const Stat = () => {
       <p className="ml-2">
         <span className="font-bold">1,383</span> images generated
       </p>
-    </div>
+    </section>
   );
 };
 

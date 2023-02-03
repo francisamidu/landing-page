@@ -11,3 +11,32 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   @apply text-white;
 }
+.carousel-container {
+  max-width: 1024px;
+  margin: 5em auto;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.indicator {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px #fff solid;
+  margin: 0;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.indicator.active {
+  color: #fff;
+  background: #fff;
+}

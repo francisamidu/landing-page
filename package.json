@@ -11,7 +11,8 @@
     "@fontsource/inter": "4.5.15",
     "lucide-react": "0.109.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-slideshow-image": "4.2.0"
   },
   "devDependencies": {
     "@nabla/vite-plugin-eslint": "1.5.0",
