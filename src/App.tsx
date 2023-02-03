@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Hero, Navbar, TopHeader } from './components';
+import { Hero, Navbar, Stat, TopHeader } from './components';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
         <TopHeader />
         <Navbar />
         <Hero />
+        <Stat />
       </main>
     </>
   );

@@ -9,7 +9,7 @@ const MainButton = ({
   param,
 }: ButtonProps) => {
   const style =
-    'text-white bg-[#3d348b] hover:bg-[#4f479c] font-medium rounded text-sm px-5 py-2.5 text-center inline-flex items-center outline-none';
+    'text-white bg-purplish-700 hover:bg-[#4f479c] font-medium rounded text-sm px-5 py-2.5 text-center inline-flex items-center outline-none';
   const styles = classNames ? `${style} ${classNames}` : style;
   const handleClick = () => {
     if (onClick && param) {
