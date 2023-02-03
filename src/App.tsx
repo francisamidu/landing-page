@@ -4,7 +4,7 @@ import { TopHeader } from './components';
 const App = () => {
   return (
     <>
-      <main>
+      <main className="bg-[#08000f]">
         <TopHeader />
       </main>
     </>
