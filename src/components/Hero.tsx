@@ -16,7 +16,7 @@ const Hero = () => {
       <MainButton
         text="Generate"
         classNames="px-7 py-4 !rounded-3xl"
-        icon={<ArrowRight color="#fff" size={20} />}
+        icon={<ArrowRight color="#fff" className="ml-3" size={20} />}
       />
     </section>
   );

@@ -18,7 +18,7 @@ const MainButton = ({
   };
   return (
     <button type="button" className={styles} onClick={handleClick}>
-      <span className="mr-2">{text}</span>
+      {text}
       {icon ? icon : null}
     </button>
   );
