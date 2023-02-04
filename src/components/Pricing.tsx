@@ -7,7 +7,7 @@ const Pricing = () => {
   const pricing = shared.pricing;
   const Cost = (cost: string) => (
     <>
-      <span className="text-sm">$</span>
+      <span className="text-base">$</span>
       {cost}
     </>
   );
@@ -30,11 +30,15 @@ const Pricing = () => {
             key={i}
           >
             <div className="grid place-items-center">
-              <span className="my-4 w-fit rounded-3xl bg-slate-800 p-1 px-3 text-xs font-bold uppercase text-white">
+              <span
+                className={`my-4 w-fit rounded-3xl ${
+                  i == 1 ? 'bg-slate-900' : 'bg-slate-800'
+                } p-1 px-3 text-xs font-bold uppercase text-white`}
+              >
                 {p.type}
               </span>
             </div>
-            <p className="mb-4 text-center text-3xl font-bold text-white">
+            <p className="mb-4 text-center text-4xl font-bold text-white">
               {Number(p.cost) ? Cost(p.cost) : p.cost}
             </p>
             {p.benefits.map((b) => (
