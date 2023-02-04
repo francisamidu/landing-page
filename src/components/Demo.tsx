@@ -6,9 +6,9 @@ import image from '../assets/images/dashboard.jpg';
 const Demo = () => {
   return (
     <section className="py-10">
-      <div className="flex-col items-center justify-center md:mx-auto">
+      <div className="mx-4 flex-col items-center justify-center md:mx-0">
         <div
-          className="h-[450px]"
+          className="mx-auto h-[300px] md:h-[450px]"
           style={{
             backgroundImage: `url(${image})`,
             backgroundPosition: 'center',
