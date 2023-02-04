@@ -6,7 +6,7 @@ import Step from './Step';
 const HowItWorks = () => {
   return (
     <section className="py-5">
-      <div className="flex max-w-screen-lg flex-col md:mx-auto">
+      <div className="flex flex-col">
         <div className="my-3 text-center">
           <h1 className="mb-3 text-xs font-bold uppercase">
             How to generate Ai images

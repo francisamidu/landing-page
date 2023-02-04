@@ -6,6 +6,7 @@ import {
   Hero,
   HowItWorks,
   Navbar,
+  Pricing,
   Slides,
   TopHeader,
 } from './components';
@@ -17,11 +18,14 @@ const App = () => {
         <TopHeader />
         <Navbar />
         <Hero />
-        <Demo />
-        <FeaturedGallery />
-        <Slides />
-        <HowItWorks />
-        <FAQ />
+        <div className="max-w-screen-lg md:mx-auto">
+          <Demo />
+          <FeaturedGallery />
+          <Slides />
+          <HowItWorks />
+          <FAQ />
+          <Pricing />
+        </div>
       </main>
     </>
   );

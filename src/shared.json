@@ -24,5 +24,40 @@
             "q": "Are there best practices on writing prompts?",
             "a": "The more descriptive you are the closer the AI is to generating the image you want. So we recommend getting more specific. A good example of a prompt is: Very cool girl wearing a cool stylish cyberpunk streetwear, 4k cinematic atmosphere in urban japan at night."
         }
+    ],
+    "pricing": [
+        {
+            "cost": "Free",
+            "type": "Personal",
+            "benefits": [
+                "5 images daily limit",
+                "Choose from 5 artistic designs",
+                "Text to Image generator",
+                "Standard speed (~15 seconds)",
+                "Unavailable when loaded"
+            ]
+        },
+        {
+            "cost": "15",
+            "type": "Team",
+            "benefits": [
+                "375 images daily limit",
+                "Choose from 15 artistic designs",
+                "All generators available",
+                "Available when not overloaded",
+                "Fast generation speed (~10 seconds)"
+            ]
+        },
+        {
+            "cost": "Custom",
+            "type": "Enterprise",
+            "benefits": [
+                "Unlimited images daily limit",
+                "Unlimited artistic designs",
+                "Available all the time",
+                "Fastest generation speed (~3 seconds)",
+                "8k image quality"
+            ]
+        }
     ]
 }

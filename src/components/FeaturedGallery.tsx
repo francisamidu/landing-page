@@ -25,19 +25,17 @@ const FeaturedGallery = () => {
   const images = [dashboard1, dashboard2, dashboard3];
   return (
     <section className="py-5">
-      <div className="max-w-screen-lg md:mx-auto">
-        <div className="my-6 flex flex-row items-center">
-          <Refresh className="mr-5 text-white" size={22} />
-          <h1 className="text-center font-bold">Featured Gallery</h1>
-        </div>
-        <Slide indicators={false} {...properties}>
-          {images.map((image, index) => (
-            <div className="each-slide-effect" key={index}>
-              <img src={image}></img>
-            </div>
-          ))}
-        </Slide>
+      <div className="my-6 flex flex-row items-center">
+        <Refresh className="mr-5 text-white" size={22} />
+        <h1 className="text-center font-bold">Featured Gallery</h1>
       </div>
+      <Slide indicators={false} {...properties}>
+        {images.map((image, index) => (
+          <div className="each-slide-effect" key={index}>
+            <img src={image}></img>
+          </div>
+        ))}
+      </Slide>
     </section>
   );
 };

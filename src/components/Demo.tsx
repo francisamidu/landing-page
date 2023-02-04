@@ -1,12 +1,12 @@
 import React from 'react';
 import { Stat } from '.';
-import { Play, PlayIcon } from 'lucide-react';
+import { Play } from 'lucide-react';
 import image from '../assets/images/dashboard.jpg';
 
 const Demo = () => {
   return (
     <section className="py-10">
-      <div className="max-w-screen-md flex-col items-center justify-center md:mx-auto">
+      <div className="flex-col items-center justify-center md:mx-auto">
         <div
           className="h-[450px]"
           style={{

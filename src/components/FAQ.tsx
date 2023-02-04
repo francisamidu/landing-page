@@ -14,7 +14,7 @@ const FAQ = () => {
   };
   return (
     <section className="p-5 md:px-0">
-      <div className="flex min-h-[50vh] max-w-screen-lg flex-col items-center md:mx-auto">
+      <div className="flex min-h-[50vh] flex-col items-center">
         <h1 className="my-4 text-3xl font-bold capitalize">
           {shared.name} AI art generator FAQs
         </h1>
