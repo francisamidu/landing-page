@@ -3,6 +3,8 @@ import shared from '../shared.json';
 
 const Footer = () => {
   const columns = shared.columns;
+  console.log(columns[columns.length - 1]);
+
   return (
     <footer className="grid grid-cols-4 p-5">
       <div className="mr-3">
@@ -26,12 +28,12 @@ const Footer = () => {
           </ul>
         </div>
       ))}
-      <div className="flex flex-row items-center justify-center">
+      <div className="col-start-1 col-end-3 flex flex-row items-center justify-center">
         <p>
           &copy; {new Date().getFullYear()} {shared.name}
         </p>
         <span className="dot"></span>
-        {columns[-1].links.map((c, i) => (
+        {columns[3].links.map((c, i) => (
           <div key={i}>
             <span className="text-slate-400">{c}</span>
             <span className="dot"></span>
