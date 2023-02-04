@@ -5,7 +5,7 @@ import MainButton from './MainButton';
 import Navbar from './Navbar';
 import SecondaryButton from './SecondaryButton';
 import Slide from './Slide';
-import Slides from './Slide';
+import Slides from './Slides';
 import Stat from './Stat';
 import TopHeader from './TopHeader';
 

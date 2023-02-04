@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { SlidesProps } from '@/interfaces';
 import image1 from '../assets/images/dashboard-1.jpg';
+import image2 from '../assets/images/dashboard-2.jpg';
+import image3 from '../assets/images/dashboard-3.jpg';
 import { Slide } from '.';
+import shared from '../shared.json';
 
 const Slides = () => {
   const [slides, _] = useState<SlidesProps[]>([
@@ -15,12 +18,22 @@ const Slides = () => {
       preHeading: 'Create',
       onClick: () => {},
     },
+    {
+      buttonText: 'Generate',
+      content: `${shared.name} doesn't just transform text to image but also Image to Image generation. Use the image of your choice to create a new image with ${shared.name} AI image generator. Use it to create wonderful AI illustrations, paintings and different kinds of artwork`,
+      heading: "It's not just Text to Image but Image to Image too",
+      image: image2,
+      order: 'reversed',
+      preHeading: 'Images',
+      onClick: () => {},
+    },
   ]);
+
   return (
     <section className="py-5">
       <div className="flex max-w-screen-lg flex-col md:mx-auto">
         {slides.map((slide) => (
-          <Slide {...slide} key={JSON.stringify(slide)} />
+          <Slide slide={slide} key={JSON.stringify(slide)} />
         ))}
       </div>
     </section>
