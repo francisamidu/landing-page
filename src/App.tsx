@@ -28,8 +28,8 @@ const App = () => {
           <FAQ />
           <Pricing />
           <Cta />
+          <Footer />
         </div>
-        <Footer />
       </main>
     </>
   );
