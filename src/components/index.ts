@@ -1,4 +1,5 @@
 import Demo from './Demo';
+import FAQ from './FAQ';
 import FeaturedGallery from './FeaturedGallery';
 import Hero from './Hero';
 import HowItWorks from './HowItWorks';
@@ -13,6 +14,7 @@ import TopHeader from './TopHeader';
 
 export {
   Demo,
+  FAQ,
   FeaturedGallery,
   Hero,
   HowItWorks,

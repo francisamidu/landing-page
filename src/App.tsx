@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {
   Demo,
+  FAQ,
   FeaturedGallery,
   Hero,
   HowItWorks,
@@ -20,6 +21,7 @@ const App = () => {
         <FeaturedGallery />
         <Slides />
         <HowItWorks />
+        <FAQ />
       </main>
     </>
   );
