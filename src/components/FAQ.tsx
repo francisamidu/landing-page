@@ -13,7 +13,7 @@ const FAQ = () => {
     setShownAnswer(faq);
   };
   return (
-    <section>
+    <section className="py-5">
       <div className="flex min-h-[50vh] max-w-screen-lg flex-col items-center md:mx-auto">
         <h1 className="my-4 text-3xl font-bold capitalize">
           {shared.name} AI art generator FAQs
