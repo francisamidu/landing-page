@@ -6,36 +6,23 @@ type TFaq = typeof shared.faqs[0];
 const FAQ = () => {
   const [showAnswer, setShownAnswer] = useState<TFaq | null>(null);
   const handleClick = (faq: TFaq) => {
+    if (showAnswer?.a) {
+      setShownAnswer(null);
+      return;
+    }
     setShownAnswer(faq);
   };
   return (
     <section>
-      <div className="max-w-screen-lg md:mx-auto">
+      <div className="flex min-h-[50vh] max-w-screen-lg flex-col items-center md:mx-auto">
         <h1 className="my-4 text-3xl font-bold capitalize">
           {shared.name} AI art generator FAQs
         </h1>
-        <div className="border-[1px] border-gray-50">
+        <div className="grid grid-cols-2 rounded-md border-[1px] border-slate-900">
           {shared.faqs.map((faq) => (
-            <div
-              className="my-2"
-              key={JSON.stringify(faq)}
-              onClick={() => handleClick(faq)}
-            >
-              <div className="flex flex-row items-center">
-                <p className="font-bold text-slate-800">{faq.q}</p>
-                {showAnswer?.a ? (
-                  <ChevronUp className="text-slate-800" size={20} />
-                ) : (
-                  <ChevronDown className="text-slate-800" size={20} />
-                )}
-              </div>
-              <div
-                className={`h-0 ${
-                  showAnswer?.a === faq.a ? 'h-full' : ''
-                } transition-all duration-200`}
-              >
-                <p className="text-slate-800">{faq.a}</p>
-              </div>
+            <div className="my-2 py-2 px-4" key={JSON.stringify(faq)}>
+              <p className="font-bold text-slate-500">{faq.q}</p>
+              <p className="mt-3 text-slate-300">{faq.a}</p>
             </div>
           ))}
         </div>
