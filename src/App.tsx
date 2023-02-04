@@ -16,7 +16,7 @@ import {
 const App = () => {
   return (
     <>
-      <main className="min-h-[95vh] bg-[#02000e]">
+      <main className="min-h-[95vh] overflow-x-hidden bg-[#02000e]">
         <TopHeader />
         <Navbar />
         <Hero />

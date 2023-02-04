@@ -12,7 +12,7 @@ const Pricing = () => {
     </>
   );
   return (
-    <section className="py-5">
+    <section className="p-5 md:py-5">
       <h1 className="text-center text-2xl font-bold capitalize">
         Simple, transparent pricing
       </h1>
@@ -24,8 +24,8 @@ const Pricing = () => {
         {pricing.map((p, i) => (
           <div
             className={`
-            flex flex-1 flex-col justify-between rounded-md border-[1px] border-slate-900 p-5
-            ${i == 1 ? 'scale-105 bg-slate-800' : ''}
+            my-3 flex flex-1 flex-col justify-between rounded-md border-[1px] border-slate-900 p-5 md:my-0
+            ${i == 1 ? 'bg-slate-800 md:scale-105' : ''}
             `}
             key={i}
           >

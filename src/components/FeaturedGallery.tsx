@@ -6,7 +6,6 @@ import dashboard3 from '../assets/images/dashboard-3.jpg';
 import { ChevronLeft, ChevronRight, RefreshCw as Refresh } from 'lucide-react';
 
 const FeaturedGallery = () => {
-  const indicators = () => <li className="indicator mr-1"></li>;
   const properties = {
     prevArrow: (
       <ChevronLeft
@@ -24,7 +23,7 @@ const FeaturedGallery = () => {
 
   const images = [dashboard1, dashboard2, dashboard3];
   return (
-    <section className="py-5">
+    <section className="p-5 md:py-5">
       <div className="my-6 flex flex-row items-center">
         <Refresh className="mr-5 text-white" size={22} />
         <h1 className="text-center font-bold">Featured Gallery</h1>

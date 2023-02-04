@@ -30,7 +30,7 @@ const Slides = () => {
   ]);
 
   return (
-    <section className="py-5">
+    <section className="p-5 md:py-5">
       <div className="flex flex-col">
         {slides.map((slide) => (
           <Slide slide={slide} key={JSON.stringify(slide)} />
