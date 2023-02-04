@@ -6,7 +6,7 @@ import Step from './Step';
 const HowItWorks = () => {
   return (
     <section className="py-5">
-      <div className="flex max-w-screen-xl flex-col md:mx-auto">
+      <div className="flex max-w-screen-lg flex-col md:mx-auto">
         <div className="my-3 text-center">
           <h1 className="mb-3 text-xs font-bold uppercase">
             How to generate Ai images
@@ -14,7 +14,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl font-bold">How it all works</h2>
         </div>
         <div className="mt-10 grid grid-cols-1 px-5 md:grid-cols-2 md:place-content-center md:px-0">
-          <div className="flex w-full flex-col items-center justify-center md:mr-3 md:w-auto">
+          <div className="flex w-full flex-col items-center justify-center md:mr-3 md:w-[90%]">
             <video
               src={video}
               autoPlay={false}
