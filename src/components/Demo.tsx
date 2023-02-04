@@ -21,8 +21,10 @@ const Demo = () => {
               className="flex flex-row items-center justify-center rounded-3xl bg-gray-50 py-3.5 px-5 shadow"
               type="button"
             >
-              <PlayIcon color="#574bc5" size={18} />
-              <span className="text-md text-slate-800">Watch quick demo</span>
+              <Play color="#574bc5" size={22} />
+              <span className="text-md ml-2 text-slate-800">
+                Watch quick demo
+              </span>
             </button>
           </div>
         </div>
