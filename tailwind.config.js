@@ -6,6 +6,9 @@ module.exports = {
         purplish: {
           500: "#574bc5",
           700: "#3d348b"
+        },
+        transluscent: {
+          500: "#00000033"
         }
       }
     },
