@@ -60,6 +60,12 @@ const Pricing = () => {
           </div>
         ))}
       </div>
+      <p className="my-10 text-center">
+        All payments are processed and secured by{' '}
+        <a href="https://www.stripe.com" className="text-purplish-500">
+          Stripe
+        </a>
+      </p>
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  Cta,
   Demo,
   FAQ,
   FeaturedGallery,
@@ -25,6 +26,7 @@ const App = () => {
           <HowItWorks />
           <FAQ />
           <Pricing />
+          <Cta />
         </div>
       </main>
     </>

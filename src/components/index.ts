@@ -1,3 +1,4 @@
+import Cta from './Cta';
 import Demo from './Demo';
 import FAQ from './FAQ';
 import FeaturedGallery from './FeaturedGallery';
@@ -14,6 +15,7 @@ import Step from './Step';
 import TopHeader from './TopHeader';
 
 export {
+  Cta,
   Demo,
   FAQ,
   FeaturedGallery,
