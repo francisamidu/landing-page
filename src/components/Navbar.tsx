@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import shared from '../shared.json';
 
 const Navbar = () => {
   const [links, setLinks] = useState([
@@ -32,7 +33,7 @@ const Navbar = () => {
     <nav className="w-full px-2 py-2 sm:px-4">
       <div className="mx-auto flex flex-row flex-wrap items-center justify-between md:max-w-[1100px]">
         <span className="self-center whitespace-nowrap text-sm font-bold uppercase">
-          Nova-Art
+          {shared.name}
         </span>
 
         <div

@@ -19,7 +19,7 @@ const FeaturedGallery = () => {
         <Slide indicators={indicators} {...properties} slidesToShow={3}>
           {images.map((image, index) => (
             <div className="each-slide-effect" key={index}>
-              <div style={{ backgroundImage: `url(${image})` }}></div>
+              <image href={image}></image>
             </div>
           ))}
         </Slide>
