@@ -59,5 +59,43 @@
                 "8k image quality"
             ]
         }
+    ],
+    "columns": [
+        {
+            "name": "Company",
+            "links": [
+                "About",
+                "Contact Us",
+                "Careers",
+                "Pricing"
+            ]
+        },
+        {
+            "name": "For Developers",
+            "links": [
+                "API",
+                "API Reference",
+                "Docs",
+                "Request Access"
+            ]
+        },
+        {
+            "name": "Need Help",
+            "links": [
+                "Contact Sales",
+                "Help Docs",
+                "FAQ",
+                "Live Demo"
+            ]
+        },
+        {
+            "name": "Legal",
+            "links": [
+                "Terms of Use",
+                "Privacy Policy",
+                "Anti-Spam Policy",
+                "Legal Notice"
+            ]
+        }
     ]
 }
