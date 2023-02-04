@@ -3,6 +3,7 @@ import {
   Demo,
   FeaturedGallery,
   Hero,
+  HowItWorks,
   Navbar,
   Slides,
   TopHeader,
@@ -18,6 +19,7 @@ const App = () => {
         <Demo />
         <FeaturedGallery />
         <Slides />
+        <HowItWorks />
       </main>
     </>
   );

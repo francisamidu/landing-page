@@ -1,6 +1,7 @@
 import Demo from './Demo';
 import FeaturedGallery from './FeaturedGallery';
 import Hero from './Hero';
+import HowItWorks from './HowItWorks';
 import MainButton from './MainButton';
 import Navbar from './Navbar';
 import SecondaryButton from './SecondaryButton';
@@ -13,6 +14,7 @@ export {
   Demo,
   FeaturedGallery,
   Hero,
+  HowItWorks,
   MainButton,
   Navbar,
   SecondaryButton,
