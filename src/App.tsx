@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { Demo, FeaturedGallery, Hero, Navbar, TopHeader } from './components';
+import {
+  Demo,
+  FeaturedGallery,
+  Hero,
+  Navbar,
+  Slides,
+  TopHeader,
+} from './components';
 
 const App = () => {
   return (
@@ -10,6 +17,7 @@ const App = () => {
         <Hero />
         <Demo />
         <FeaturedGallery />
+        <Slides />
       </main>
     </>
   );
