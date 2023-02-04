@@ -3,7 +3,7 @@ import { MainButton } from '.';
 
 const TopHeader = () => {
   return (
-    <div className="flex flex-row items-center justify-center border-b border-gray-800 py-2 px-4">
+    <div className="hidden flex-row items-center justify-center border-b border-gray-800 py-2 px-4 md:flex">
       <p className="mr-4">
         We have recently released a Beta version of our next-gen ML model. Test
         it out!
