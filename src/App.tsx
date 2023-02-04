@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FeaturedGallery, Hero, Navbar, Stat, TopHeader } from './components';
+import { Demo, FeaturedGallery, Hero, Navbar, TopHeader } from './components';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
         <TopHeader />
         <Navbar />
         <Hero />
-        <Stat />
+        <Demo />
         <FeaturedGallery />
       </main>
     </>

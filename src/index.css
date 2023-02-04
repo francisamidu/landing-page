@@ -40,3 +40,7 @@ body {
   color: #fff;
   background: #fff;
 }
+
+.demo {
+  background-image: url('./src/assets/images/powered-by-vitawind.png');
+}
