@@ -17,7 +17,7 @@ const FeaturedGallery = () => {
     nextArrow: (
       <ChevronRight
         size={25}
-        className="mr-2 rounded-full bg-[#00000033] p-1 text-white"
+        className="mr-2 rounded-full bg-transluscent-500 p-1 text-white"
       />
     ),
   };

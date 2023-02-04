@@ -8,6 +8,8 @@ module.exports = {
           700: "#3d348b"
         },
         transluscent: {
+          100: "#cacaca09",
+          300: "#00000013",
           500: "#00000033"
         }
       }

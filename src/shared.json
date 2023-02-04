@@ -2,7 +2,7 @@
     "name": "Tornic",
     "description": "AI Image Generator",
     "steps": [
-        "Launch tool by clicking Geneate",
+        "Launch tool by clicking Generate",
         "Optionally choose your artistic style",
         "Enter your text prompt in the input box and click Generate to generate your image.",
         "Download generated images or generate more"

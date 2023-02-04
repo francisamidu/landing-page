@@ -8,6 +8,7 @@ import SecondaryButton from './SecondaryButton';
 import Slide from './Slide';
 import Slides from './Slides';
 import Stat from './Stat';
+import Step from './Step';
 import TopHeader from './TopHeader';
 
 export {
@@ -19,6 +20,7 @@ export {
   Navbar,
   SecondaryButton,
   Stat,
+  Step,
   Slide,
   Slides,
   TopHeader,
