@@ -45,8 +45,8 @@ const Pricing = () => {
               <ul className="flex flex-col p-0" key={JSON.stringify(b)}>
                 <li className="mb-3 flex flex-row items-center">
                   <CheckIcon
-                    color="#196436"
-                    className="mr-3  rounded-full bg-[#2bbd63d8] p-1"
+                    color="#fff"
+                    className="mr-3  rounded-full bg-purplish-700 p-1 text-[]"
                     size={22}
                   />
                   <span className="text-slate-500">{b}</span>
@@ -60,7 +60,7 @@ const Pricing = () => {
           </div>
         ))}
       </div>
-      <p className="mt-5 text-center">
+      <p className="mt-10 text-center">
         All payments are processed and secured by{' '}
         <a href="https://www.stripe.com" className="text-purplish-500">
           Stripe
