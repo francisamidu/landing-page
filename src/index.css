@@ -48,14 +48,11 @@ body {
 }
 
 .dot {
+  display: block;
   content: '';
-  width: 2px;
-  height: 2px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
-  margin: 0 10px;
-  @apply bg-slate-300;
-}
-
-.dot:last-child {
-  display: none;
+  margin: 0 18px;
+  @apply bg-slate-500;
 }

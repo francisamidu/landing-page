@@ -3,8 +3,7 @@ import shared from '../shared.json';
 
 const Footer = () => {
   const columns = shared.columns;
-  console.log(columns[columns.length - 1]);
-
+  const lastColumn = columns[columns.length - 1];
   return (
     <footer className="grid grid-cols-4 p-5">
       <div className="mr-3">
@@ -12,11 +11,11 @@ const Footer = () => {
         <p className="mt-5 text-slate-400">{shared.description}</p>
       </div>
       {columns.slice(0, 3).map((c) => (
-        <div className="place-self-center" key={JSON.stringify(c)}>
+        <div className="my-3 place-self-center" key={JSON.stringify(c)}>
           <h2 className="text-xs font-bold uppercase text-slate-400">
             {c.name}
           </h2>
-          <ul className="mt-3">
+          <ul className="mt-7">
             {c.links.map((l) => (
               <li
                 key={l}
@@ -28,15 +27,19 @@ const Footer = () => {
           </ul>
         </div>
       ))}
-      <div className="col-start-1 col-end-3 flex flex-row items-center justify-center">
+      <div className="col-start-1 col-end-5 my-7 flex flex-row items-center justify-center">
         <p>
           &copy; {new Date().getFullYear()} {shared.name}
         </p>
         <span className="dot"></span>
-        {columns[3].links.map((c, i) => (
-          <div key={i}>
-            <span className="text-slate-400">{c}</span>
-            <span className="dot"></span>
+        {lastColumn.links.map((c, i) => (
+          <div className="flex flex-row items-center justify-center" key={i}>
+            <a href="#" className="text-slate-400 hover:text-purplish-500">
+              {c}
+            </a>
+            {lastColumn.links.length - i != 1 ? (
+              <span className="dot"></span>
+            ) : null}
           </div>
         ))}
       </div>
