@@ -13,12 +13,12 @@ const FAQ = () => {
     setShownAnswer(faq);
   };
   return (
-    <section className="py-5">
+    <section className="p-5 md:px-0">
       <div className="flex min-h-[50vh] max-w-screen-lg flex-col items-center md:mx-auto">
         <h1 className="my-4 text-3xl font-bold capitalize">
           {shared.name} AI art generator FAQs
         </h1>
-        <div className="grid grid-cols-2 rounded-md border-[1px] border-slate-900">
+        <div className="grid grid-cols-1 rounded-md border-[1px] border-slate-900 md:grid-cols-2">
           {shared.faqs.map((faq) => (
             <div className="my-2 py-2 px-4" key={JSON.stringify(faq)}>
               <p className="font-bold text-slate-500">{faq.q}</p>
