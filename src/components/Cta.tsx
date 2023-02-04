@@ -6,7 +6,7 @@ import { Check } from 'lucide-react';
 const Cta = () => {
   return (
     <section className="py-5">
-      <div className="rounded-lg bg-blue-900 p-10 text-center">
+      <div className="rounded-lg bg-purplish-700 p-10 text-center">
         <h1 className="mb-1 text-sm font-bold capitalize text-slate-300">
           Try today
         </h1>
@@ -23,7 +23,7 @@ const Cta = () => {
             text="Get started for free"
           />
           <MainButton
-            classNames="ml-3 bg-white text-blue-900 hover:bg-black hover:text-white"
+            classNames="ml-3 bg-white text-purplish-700 hover:bg-black hover:text-white"
             text="Get a live demo"
           />
         </div>

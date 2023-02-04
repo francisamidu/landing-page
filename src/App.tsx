@@ -4,6 +4,7 @@ import {
   Demo,
   FAQ,
   FeaturedGallery,
+  Footer,
   Hero,
   HowItWorks,
   Navbar,
@@ -28,6 +29,7 @@ const App = () => {
           <Pricing />
           <Cta />
         </div>
+        <Footer />
       </main>
     </>
   );

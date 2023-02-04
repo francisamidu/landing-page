@@ -2,6 +2,7 @@ import Cta from './Cta';
 import Demo from './Demo';
 import FAQ from './FAQ';
 import FeaturedGallery from './FeaturedGallery';
+import Footer from './Footer';
 import Hero from './Hero';
 import HowItWorks from './HowItWorks';
 import MainButton from './MainButton';
@@ -19,6 +20,7 @@ export {
   Demo,
   FAQ,
   FeaturedGallery,
+  Footer,
   Hero,
   HowItWorks,
   MainButton,
