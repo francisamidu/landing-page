@@ -23,7 +23,7 @@ const Cta = () => {
             text="Get started for free"
           />
           <MainButton
-            classNames="ml-3 bg-white text-purplish-700 hover:bg-black hover:text-white"
+            classNames="ml-3 bg-white !text-purplish-700 hover:bg-black hover:text-white"
             text="Get a live demo"
           />
         </div>
