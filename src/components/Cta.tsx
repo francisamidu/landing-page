@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 
 const Cta = () => {
   return (
-    <section className="py-5">
+    <section className="p-5 md:py-5">
       <div className="rounded-lg bg-purplish-700 p-10 text-center">
         <h1 className="mb-1 text-sm font-bold capitalize text-slate-300">
           Try today
@@ -13,7 +13,7 @@ const Cta = () => {
         <h2 className="text-4xl font-bold">
           Get Started with {shared.name} for free
         </h2>
-        <p className="my-5 mx-auto w-3/5 text-slate-200">
+        <p className="my-5 mx-auto text-slate-200 md:w-3/5">
           Unleash your creative potential with {shared.name}. Save money and
           time while creating stunning works of art.
         </p>
@@ -27,12 +27,12 @@ const Cta = () => {
             text="Get a live demo"
           />
         </div>
-        <div className="my-3 flex flex-row items-center justify-center">
-          <div className="mr-2 flex flex-row items-center">
+        <div className="my-3 flex flex-col items-center justify-center md:flex-row">
+          <div className="flex flex-row items-center md:mr-2">
             <Check color="#fff" size={18} />
             <span className="ml-2 text-white">No credit card required</span>
           </div>
-          <div className="ml-2 flex flex-row items-center">
+          <div className="flex flex-row items-center md:ml-2">
             <Check color="#fff" size={18} />
             <span className="ml-2 text-white">No software to install</span>
           </div>
