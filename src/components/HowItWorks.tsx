@@ -13,8 +13,8 @@ const HowItWorks = () => {
           </h1>
           <h2 className="text-3xl font-bold">How it all works</h2>
         </div>
-        <div className="mt-10 grid grid-cols-1 px-5 md:grid-cols-2 md:px-0">
-          <div className="mr-3 flex w-full flex-col items-center justify-center md:w-[55%]">
+        <div className="mt-10 grid grid-cols-1 px-5 md:grid-cols-2 md:place-content-center md:px-0">
+          <div className="flex w-full flex-col items-center justify-center md:mr-3 md:w-auto">
             <video
               src={video}
               autoPlay={false}
@@ -22,7 +22,7 @@ const HowItWorks = () => {
               className="h-auto w-full"
             ></video>
           </div>
-          <div className="ml-3 w-full flex-col items-center md:w-[45%]">
+          <div className="ml-3 w-full flex-col items-center md:w-auto">
             {shared.steps.map((step, index) => (
               <Step key={JSON.stringify(step)} index={index} text={step} />
             ))}

@@ -3,7 +3,7 @@ import { Slide } from 'react-slideshow-image';
 import dashboard1 from '../assets/images/dashboard-1.jpg';
 import dashboard2 from '../assets/images/dashboard-2.jpg';
 import dashboard3 from '../assets/images/dashboard-3.jpg';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, RefreshCw as Refresh } from 'lucide-react';
 
 const FeaturedGallery = () => {
   const indicators = () => <li className="indicator mr-1"></li>;
@@ -24,9 +24,12 @@ const FeaturedGallery = () => {
 
   const images = [dashboard1, dashboard2, dashboard3];
   return (
-    <section className="my-5">
-      <h1 className="my-6 text-center font-bold">Featured Gallery</h1>
+    <section className="py-5">
       <div className="max-w-screen-lg md:mx-auto">
+        <div className="my-6 flex flex-row items-center">
+          <Refresh className="mr-5 text-white" size={22} />
+          <h1 className="text-center font-bold">Featured Gallery</h1>
+        </div>
         <Slide indicators={false} {...properties}>
           {images.map((image, index) => (
             <div className="each-slide-effect" key={index}>

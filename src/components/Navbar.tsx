@@ -32,9 +32,12 @@ const Navbar = () => {
   return (
     <nav className="w-full px-2 py-2 sm:px-4">
       <div className="mx-auto flex flex-row flex-wrap items-center justify-between md:max-w-[1100px]">
-        <span className="self-center whitespace-nowrap text-sm font-bold uppercase">
+        <a
+          href="#"
+          className="self-center whitespace-nowrap text-sm font-bold uppercase"
+        >
           {shared.name}
-        </span>
+        </a>
 
         <div
           className="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto"
@@ -47,8 +50,8 @@ const Navbar = () => {
                   <a
                     href={link}
                     className={`block py-2 pl-3 pr-4 ${
-                      active ? 'text-[#3d348b]' : 'text-slate-100'
-                    } rounded capitalize md:p-0`}
+                      active ? 'text-purplish-700' : 'text-slate-100'
+                    } rounded capitalize transition-colors duration-200 hover:text-purplish-500 md:p-0`}
                   >
                     {text}
                   </a>
