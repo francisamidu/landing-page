@@ -46,3 +46,16 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.dot {
+  content: '';
+  width: 2px;
+  height: 2;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: @apply bg-slate-300;
+}
+
+.dot:last-child {
+  display: none;
+}
