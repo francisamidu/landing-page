@@ -48,7 +48,6 @@ body {
 }
 
 .dot {
-  display: block;
   content: '';
   width: 4px;
   height: 4px;
